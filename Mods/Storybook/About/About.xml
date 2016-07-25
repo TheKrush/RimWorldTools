@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Storybook</name>
+    <author>Krush</author>
+    <url>n/a</url>
+    <targetVersion>0.14.1238</targetVersion>
+    <description>
+Requires: CommunityCoreLibrary
+
+Adds some more child/adult backstories to the game.
+
+Child backstories:
+- Bully
+- Farm kid
+- Fat kid
+- Medieval witch
+- Military cadet
+- Miner kid
+- Officer cadet
+- Pet sitter
+- Runaway
+- Sandbox architect
+- Super hero
+- Tester
+- Vatgrown engineer
+- Vatgrown slave
+- Young reader
+
+Adult backstories:
+- Jack of all trades
+- Junior officer
+- Medical soldier
+- Mercenary lieutenant
+- Military scout
+- Musician
+- Police officer
+- Police sergeant
+- Politician
+- Professional builder
+- Professional farmer
+- Professional miner
+- Senior officer
+- Starship bioengineer
+- Starship cook
+- Starship engineer
+- Starship guard
+- Starship nurse
+- Starship pilot
+- Super soldier
+- Veteran marine
+- Video game blogger
+
+Stories by Provider:
+- Andouce (child: Military cadet)(adult: Military scout, Medical soldier, Mercenary lieutenant, Police officer, Police sergeant, Politician, Senior officer, Veteran marine)
+- Igabod (child: Farm kid, Miner kid, Sandbox architect)(adult: Professional builder, Professional farmer, Professional miner)
+- mokonasakura (child: Medieval witch
+- Super hero
+
+- Jack of all trades
+- Musician
+- Starship guard
+- Super soldier
+    </description>
+</ModMetaData>
