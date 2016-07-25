@@ -1,2 +1,4 @@
-# RimWorldTools
-Various mods and C# tools/libraries related to the RimWorld game.
+RimWorldTools
+====================
+
+Various C# tools/libraries and mods related to the RimWorld game.
