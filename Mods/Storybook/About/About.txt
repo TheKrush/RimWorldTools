@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Storybook</name>
   <author>Krush</author>
-  <url>n/a</url>
+  <url>https://github.com/TheKrush/RimWorldTools/</url>
   <targetVersion>0.14.1238</targetVersion>
   <description>Requires: CommunityCoreLibrary
 
