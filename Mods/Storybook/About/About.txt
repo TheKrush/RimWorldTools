@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Storybook</name>
   <author>Krush</author>
-  <url>https://github.com/TheKrush/RimWorldTools/</url>
+  <url>https://ludeon.com/forums/index.php?topic=22194.0</url>
   <targetVersion>0.14.1238</targetVersion>
   <description>Requires: CommunityCoreLibrary
 
