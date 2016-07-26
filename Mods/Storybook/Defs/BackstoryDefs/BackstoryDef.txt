@@ -483,7 +483,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
-    <author>Krush</author>
+    <author>Ray_Anor</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JackOfAllTrades</defName>
@@ -1192,6 +1192,6 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
-    <author>Krush</author>
+    <author>Ray_Anor</author>
   </CommunityCoreLibrary.BackstoryDef>
 </Defs>
