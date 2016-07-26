@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Storybook</name>
+  <author>Krush</author>
+  <url>n/a</url>
+  <targetVersion>0.14.1238</targetVersion>
+  <description>Requires: CommunityCoreLibrary
+
+Adds some more backstories to the game.
+  </description>
+</ModMetaData>

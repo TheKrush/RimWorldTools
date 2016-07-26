@@ -1,64 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Storybook</name>
-    <author>Krush</author>
-    <url>n/a</url>
-    <targetVersion>0.14.1238</targetVersion>
-    <description>
-Requires: CommunityCoreLibrary
+  <name>Storybook</name>
+  <author>Krush</author>
+  <url>n/a</url>
+  <targetVersion>0.14.1238</targetVersion>
+  <description>Requires: CommunityCoreLibrary
 
-Adds some more child/adult backstories to the game.
-
-Child backstories:
+Adds some more backstories to the game.
+  
+Childhood
 - Bully
-- Farm kid
-- Fat kid
-- Medieval witch
-- Military cadet
-- Miner kid
-- Officer cadet
-- Pet sitter
+- Farm Kid
+- Fat Kid
+- Medieval Witch
+- Military Cadet
+- Miner Kid
+- Officer Cadet
+- Pet Sitter
 - Runaway
-- Sandbox architect
-- Super hero
+- Sandbox Architect
+- Super Hero
 - Tester
-- Vatgrown engineer
-- Vatgrown slave
-- Young reader
+- Vatgrown Engineer
+- Vatgrown Slave
+- Young Reader
 
-Adult backstories:
-- Jack of all trades
-- Junior officer
-- Medical soldier
-- Mercenary lieutenant
-- Military scout
+Adulthood
+- Jack Of All Trades
+- Junior Officer
+- Medical Soldier
+- Mercenary Lieutenant
+- Military Scout
 - Musician
-- Police officer
-- Police sergeant
+- Police Officer
+- Police Sergeant
 - Politician
-- Professional builder
-- Professional farmer
-- Professional miner
-- Senior officer
-- Starship bioengineer
-- Starship cook
-- Starship engineer
-- Starship guard
-- Starship nurse
-- Starship pilot
-- Super soldier
-- Veteran marine
-- Video game blogger
+- Professional Builder
+- Professional Farmer
+- Professional Miner
+- Senior Officer
+- Starship Bioengineer
+- Starship Cook
+- Starship Engineer
+- Starship Guard
+- Starship Nurse
+- Starship Pilot
+- Super Soldier
+- Veteran Marine
+- Video Game Blogger
 
-Stories by Provider:
-- Andouce (child: Military cadet)(adult: Military scout, Medical soldier, Mercenary lieutenant, Police officer, Police sergeant, Politician, Senior officer, Veteran marine)
-- Igabod (child: Farm kid, Miner kid, Sandbox architect)(adult: Professional builder, Professional farmer, Professional miner)
-- mokonasakura (child: Medieval witch
-- Super hero
+-------------------------
 
-- Jack of all trades
-- Musician
-- Starship guard
-- Super soldier
-    </description>
+AUTHORS
+
+Andouce
+- childhood: Military Cadet, Officer Cadet
+- adulthood: Junior Officer, Medical Soldier, Mercenary Lieutenant, Military Scout, Police Officer, Police Sergeant, Politician, Senior Officer, Veteran Marine
+
+CommunityCoreLibrary
+- childhood: Tester
+
+Igabod
+- childhood: Farm Kid, Miner Kid, Sandbox Architect
+- adulthood: Professional Builder, Professional Farmer, Professional Miner
+
+Krush
+- childhood: Bully, Fat Kid, Pet Sitter, Runaway, Vatgrown Engineer, Vatgrown Slave, Young Reader
+- adulthood: Starship Bioengineer, Starship Cook, Starship Engineer, Starship Nurse, Starship Pilot, Video Game Blogger
+
+mokonasakura
+- childhood: Medieval Witch, Super Hero
+- adulthood: Jack Of All Trades, Musician, Starship Guard, Super Soldier</description>
 </ModMetaData>

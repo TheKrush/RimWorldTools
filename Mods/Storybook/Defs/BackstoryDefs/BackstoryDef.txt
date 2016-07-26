@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Bully</defName>
     <title>Bully</title>
+    <titleShort>Bully</titleShort>
     <baseDescription>NAME most of HIS childhood stealing kids' lunch money.</baseDescription>
     <bodytypeMale>Hulk</bodytypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -26,10 +27,12 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FarmKid</defName>
     <title>Farm kid</title>
+    <titleShort>Farm kid</titleShort>
     <baseDescription>NAME grew up on a farm. HECAP played with sticks and had many pets. Life on the farm wasn't always fun and games for HIM however, HE had to learn how to carry HIS own weight and perform a wide variety of necessary tasks.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -56,10 +59,12 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FatKid</defName>
     <title>Fat kid</title>
+    <titleShort>Fat kid</titleShort>
     <baseDescription>NAME was always picked last in gym, which made them sad. NAME ate because HE was sad and HE was sad because HE ate.</baseDescription>
     <bodytypeMale>Fat</bodytypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
@@ -82,6 +87,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedievalWitch</defName>
@@ -121,6 +127,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryCadet</defName>
@@ -130,6 +137,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -155,10 +163,12 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MinerKid</defName>
     <title>Miner kid</title>
+    <titleShort>Miner kid</titleShort>
     <baseDescription>NAME grew up with two miners for parents. HECAP listened to them speak to their friends about all the wonderous things they saw deep in the bowels of the planet. HECAP spent HIS entire life learning and dreaming about becoming a miner and exploring all kinds of caverns.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -185,6 +195,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>OfficerCadet</defName>
@@ -194,6 +205,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -215,14 +227,17 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PetSitter</defName>
     <title>Pet sitter</title>
+    <titleShort>Pet sitter</titleShort>
     <baseDescription>NAME loved animals and spent a good amount of HIS time looking after people's pets. They always seemed to like NAME.</baseDescription>
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Animals</defName>
@@ -238,10 +253,12 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Runaway</defName>
     <title>Runaway</title>
+    <titleShort>Runaway</titleShort>
     <baseDescription>NAME decided at a early age HE did not want to be where HE was so HE took off and never looked back.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -265,10 +282,12 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SandboxArchitect</defName>
     <title>Sandbox architect</title>
+    <titleShort>Sandbox architect</titleShort>
     <baseDescription>NAME spent all of HIS time as a child playing in the sandbox. While children would pile up a mound of sand in the center of the box and call it a castle and then immediately destroy it, NAME designed and built beautiful castles with courtyards and walls with crenellations punctuated by towers. HECAP often got into fist fights with the children when they tried to destroy HIS work.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -291,10 +310,12 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperHero</defName>
     <title>Super hero</title>
+    <titleShort>Super hero</titleShort>
     <baseDescription>NAME was your typical super hero who went around saving cats in distress and helping old ladies cross the street. HECAP always lost HIS lunch money to the villain though.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -324,6 +345,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Tester</defName>
@@ -345,6 +367,7 @@
       <li>Civil</li>
       <li>Tribal</li>
     </spawnCategories>
+    <author>CommunityCoreLibrary</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownEngineer</defName>
@@ -375,6 +398,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownSlave</defName>
@@ -402,6 +426,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>YoungReader</defName>
@@ -411,6 +436,7 @@
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -457,6 +483,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JackOfAllTrades</defName>
@@ -511,6 +538,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JuniorOfficer</defName>
@@ -520,6 +548,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -537,6 +566,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedicalSoldier</defName>
@@ -546,6 +576,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Medicine</defName>
@@ -567,6 +598,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MercenaryLieutenant</defName>
@@ -576,6 +608,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -590,6 +623,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryScout</defName>
@@ -599,6 +633,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Cooking</defName>
@@ -616,10 +651,12 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Musician</defName>
     <title>Musician</title>
+    <titleShort>Musician</titleShort>
     <baseDescription>NAME was a talented musician who created famous works such as "what does the fox say" and "elevator music". Well, sometimes bad things, such as being stranded on a rimworld, happen to good people.</baseDescription>
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -637,6 +674,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceOfficer</defName>
@@ -646,6 +684,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -667,6 +706,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceSergeant</defName>
@@ -676,6 +716,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -697,10 +738,12 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Politician</defName>
     <title>Politician</title>
+    <titleShort>Politician</titleShort>
     <baseDescription>NAME has served HIS Colonies Government for a full term of Office. HECAP sure knows how to talk and can inspire people to see things HIS way.</baseDescription>
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -730,6 +773,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalBuilder</defName>
@@ -758,6 +802,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalFarmer</defName>
@@ -798,6 +843,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalMiner</defName>
@@ -837,6 +883,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Igabod</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SeniorOfficer</defName>
@@ -846,6 +893,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -863,6 +911,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipBioengineer</defName>
@@ -895,6 +944,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipCook</defName>
@@ -929,6 +979,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipEngineer</defName>
@@ -960,6 +1011,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipGuard</defName>
@@ -991,6 +1043,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipNurse</defName>
@@ -1022,6 +1075,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipPilot</defName>
@@ -1054,6 +1108,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperSoldier</defName>
@@ -1081,6 +1136,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <author>mokonasakura</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VeteranMarine</defName>
@@ -1090,6 +1146,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -1103,6 +1160,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Andouce</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VideoGameBlogger</defName>
@@ -1112,6 +1170,7 @@
     <bodytypeMale>Male</bodytypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -1133,5 +1192,6 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
 </Defs>
