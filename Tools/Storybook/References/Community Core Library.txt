@@ -1,3 +1,0 @@
-Copy the .dll from CommunityCoreLibrary after building it
-You can find it here:
-{CommunityCoreLibrary-Folder}\DLL_Project\bin\Community Core Library.dll

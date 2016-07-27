@@ -3,24 +3,29 @@
 // </copyright>
 // <summary>
 //   This program simply does some cleanup converting my version of the About\About.xml and
-//   Defs\BackstoryDefs\BackstoryDefs.xml (mine are the .txt) to remove some things I use for generating part of the
+//   BackstoryDefXml\BackstoryDefs\BackstoryDefs.xml (mine are the .txt) to remove some things I use for generating part of the
 //   About.xml description.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 namespace Storybook
 {
     using System;
-    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Text.RegularExpressions;
+    using System.Xml;
     using System.Xml.Linq;
+    using System.Xml.Serialization;
+
+    using RimWorld;
+
+    using RimWorldLib.Xml;
 
     internal class Program
     {
         #region Fields
 
-        private static string StorybookDir = string.Empty;
+        private static string storybookDir = string.Empty;
 
         #endregion
 
@@ -34,7 +39,7 @@ namespace Storybook
                     return;
                 }
 
-                StorybookDir = args[0];
+                storybookDir = args[0];
             }
 
             UpdateAboutDescription(UpdateBackstoryDef());
@@ -43,7 +48,7 @@ namespace Storybook
         private static XElement Sort(XElement element)
         {
             return new XElement(
-                element.Name,
+                element.Name, 
                 from child in element.Elements() orderby child.Name.ToString() select Sort(child));
         }
 
@@ -54,7 +59,7 @@ namespace Storybook
 
         private static void UpdateAboutDescription(string desc)
         {
-            string xmlDir = StorybookDir + @"About\";
+            string xmlDir = storybookDir + @"About\";
             string xmlFileIn = @"About.txt";
             string xmlFileOut = @"About.xml";
 
@@ -73,153 +78,117 @@ namespace Storybook
         {
             string output = string.Empty;
 
-            string xmlDir = StorybookDir + @"Defs\BackstoryDefs\";
+            string xmlDir = storybookDir + @"Defs\BackstoryDefs\";
             string xmlFileIn = @"BackstoryDef.txt";
             string xmlFileOut = @"BackstoryDef.xml";
 
-            XElement root = XElement.Load(xmlDir + xmlFileIn);
-            var sortedElements =
-                root.Elements("CommunityCoreLibrary.BackstoryDef")
-                    .OrderByDescending(x => (string)x.Element("slot"))
-                    .ThenBy(x => (string)x.Element("title"));
+            BackstoryDefs backstoryDefs;
 
-            Dictionary<string, List<KeyValuePair<string, string>>> authors =
-                new Dictionary<string, List<KeyValuePair<string, string>>>();
-
-            string prevSlot = string.Empty;
-            foreach (XElement xElement in sortedElements)
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(BackstoryDefs));
+            using (StreamReader streamReader = new StreamReader(xmlDir + xmlFileIn))
+            using (XmlReader xmlReader = XmlReader.Create(streamReader))
             {
-                string slot = (string)xElement.Element("slot");
-                if (slot != prevSlot)
-                {
-                    if (!string.IsNullOrEmpty(prevSlot))
-                    {
-                        output += Environment.NewLine;
-                    }
+                backstoryDefs = (BackstoryDefs)xmlSerializer.Deserialize(xmlReader);
+            }
 
-                    output += slot + Environment.NewLine;
-                    prevSlot = slot;
+            backstoryDefs.Backstories.Sort(
+                (a, b) =>
+                    {
+                        int slotCompare = a.slot.CompareTo(b.slot);
+                        return slotCompare != 0
+                                   ? slotCompare
+                                   : string.Compare(a.title, b.title, StringComparison.Ordinal);
+                    });
+
+            const int TitleShortLengthWarn = 15;
+            foreach (BackstoryDefs.BackstoryDefEx backstoryDef in backstoryDefs.Backstories)
+            {
+                // ensure proper title casing
+                backstoryDef.title = char.ToUpper(backstoryDef.title[0]) + backstoryDef.title.Substring(1).ToLower();
+
+                if (string.IsNullOrEmpty(backstoryDef.titleShort))
+                {
+                    backstoryDef.titleShort = backstoryDef.title;
                 }
 
-                // ensure proper title casing
-                string title = (string)xElement.Element("title");
-                title = char.ToUpper(title[0]) + title.Substring(1).ToLower();
-                xElement.SetElementValue("title", title);
-
-                string titleShort = (string)xElement.Element("titleShort");
-                const int TitleShortLengthMax = 12;
-                int titleShortLength = (string.IsNullOrEmpty(titleShort) ? title : titleShort).Length;
-                if (titleShortLength > TitleShortLengthMax)
+                // check short title length
+                if (backstoryDef.titleShort.Length >= TitleShortLengthWarn)
                 {
                     Console.WriteLine(
-                        "[" + title + "][" + titleShort + "] has short title of length of " + titleShortLength);
+                        "[" + backstoryDef.title + "][" + backstoryDef.titleShort + "] has short title of length of "
+                        + backstoryDef.titleShort.Length);
                 }
 
-                if (!string.IsNullOrEmpty(titleShort) && title == titleShort)
+                if (backstoryDef.title == backstoryDef.titleShort)
                 {
-                    xElement.SetElementValue("titleShort", null);
+                    backstoryDef.titleShort = null;
                 }
 
                 // defName is always based on title
-                string uppercaseTitle =
-                    System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(title.ToLower());
-                string defName = uppercaseTitle.Replace(" ", string.Empty);
-                xElement.SetElementValue("defName", defName);
+                backstoryDef.defName =
+                    System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(
+                        backstoryDef.title.ToLower()).Replace(" ", string.Empty);
 
                 // remove excess spacing from baseDescription
-                string baseDescription = (string)xElement.Element("baseDescription");
-                baseDescription = new Regex(@"\s\s+").Replace(baseDescription, " ");
-                xElement.SetElementValue("baseDescription", baseDescription);
+                backstoryDef.baseDescription = new Regex(@"\s\s+").Replace(backstoryDef.baseDescription, " ");
 
-                var workDisablesElement = xElement.Element("workDisables");
-                if (workDisablesElement != null)
-                {
-                    var workDisables = workDisablesElement.Elements("li");
-                    if (workDisables.Any())
-                    {
-                        workDisables = workDisables.OrderBy(x => (string)x).ToArray();
-                        workDisablesElement.ReplaceAll(workDisables);
-                    }
-                    else
-                    {
-                        xElement.SetElementValue("workDisables", null);
-                    }
-                }
+                backstoryDef.workAllows.Sort();
+                backstoryDef.workDisables.Sort();
+                backstoryDef.skillGains.Sort((a, b) => string.Compare(a.defName, b.defName, StringComparison.Ordinal));
+                backstoryDef.spawnCategories.Sort();
 
-                if (xElement.Element("skillGains") != null)
-                {
-                    var skillGains = xElement.Element("skillGains").Elements("li");
-                    if (skillGains.Any())
-                    {
-                        skillGains = skillGains.OrderBy(x => (string)x.Element("defName")).ToArray();
-                        xElement.Element("skillGains").ReplaceAll(skillGains);
-                    }
-                    else
-                    {
-                        xElement.SetElementValue("skillGains", null);
-                    }
-                }
-
-                if (xElement.Element("spawnCategories") != null)
-                {
-                    var spawnCategories = xElement.Element("spawnCategories").Elements("li");
-                    if (spawnCategories.Any())
-                    {
-                        spawnCategories = spawnCategories.OrderBy(x => (string)x).ToArray();
-                        xElement.Element("spawnCategories").ReplaceAll(spawnCategories);
-                    }
-                    else
-                    {
-                        xElement.SetElementValue("spawnCategories", null);
-                    }
-                }
-
-                // remove any saveKeyIdentifier
-                xElement.SetElementValue("saveKeyIdentifier", null);
-                // now add it to the end
-                xElement.SetElementValue("saveKeyIdentifier", "Storybook");
-
-                // move author to the last element
-                string author = (string)xElement.Element("author") ?? "Krush";
-                xElement.SetElementValue("author", null);
-                xElement.SetElementValue("author", null); // remove author
-
-                output += "- " + uppercaseTitle + Environment.NewLine;
-
-                if (!authors.ContainsKey(author))
-                {
-                    authors.Add(author, new List<KeyValuePair<string, string>>());
-                }
-
-                authors[author].Add(new KeyValuePair<string, string>(slot, uppercaseTitle));
+                backstoryDef.saveKeyIdentifier = "Storybook";
             }
 
-            root.ReplaceAll(sortedElements);
-            root.Save(xmlDir + xmlFileOut);
-
+            output += "Childhood" + Environment.NewLine;
+            output += string.Join(
+                Environment.NewLine, 
+                backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Childhood)
+                    .OrderBy(b => b.title)
+                    .Select(b => "- " + b.title)) + Environment.NewLine;
             output += Environment.NewLine;
-            output += new string('-', 25) + Environment.NewLine;
+            output += "Adulthood" + Environment.NewLine;
+            output += string.Join(
+                Environment.NewLine, 
+                backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Adulthood)
+                    .OrderBy(b => b.title)
+                    .Select(b => "- " + b.title)) + Environment.NewLine;
             output += Environment.NewLine;
-            output += "AUTHORS" + Environment.NewLine;
-            output += Environment.NewLine;
-            foreach (string author in authors.Keys.OrderBy(a => a))
+            output += new string('-', 25) + Environment.NewLine + Environment.NewLine;
+            output += "AUTHORS" + Environment.NewLine + Environment.NewLine;
+            foreach (var group in backstoryDefs.Backstories.GroupBy(b => b.author).OrderBy(g => g.Key))
             {
-                output += author + Environment.NewLine;
-                var childhood = authors[author].Where(t => t.Key == "Childhood");
-                if (childhood.Any())
+                output += group.Key + Environment.NewLine;
+                if (group.Any(b => b.slot == BackstorySlot.Childhood))
                 {
-                    output += "- childhood: " + string.Join(", ", childhood.OrderBy(t => t.Value).Select(t => t.Value))
-                              + Environment.NewLine;
+                    output += "- childhood: "
+                              + string.Join(
+                                  ", ", 
+                                  group.Where(b => b.slot == BackstorySlot.Childhood)
+                                    .OrderBy(b => b.title)
+                                    .Select(b => b.title)) + Environment.NewLine;
                 }
 
-                var adulthood = authors[author].Where(t => t.Key == "Adulthood");
-                if (adulthood.Any())
+                if (group.Any(b => b.slot == BackstorySlot.Adulthood))
                 {
-                    output += "- adulthood: " + string.Join(", ", adulthood.OrderBy(t => t.Value).Select(t => t.Value))
-                              + Environment.NewLine;
+                    output += "- adulthood: "
+                              + string.Join(
+                                  ", ", 
+                                  group.Where(b => b.slot == BackstorySlot.Adulthood)
+                                    .OrderBy(b => b.title)
+                                    .Select(b => b.title)) + Environment.NewLine;
                 }
 
                 output += Environment.NewLine;
+            }
+
+            // clear out author
+            backstoryDefs.Backstories.ForEach(b => b.author = null);
+
+            using (StreamWriter streamWriter = new StreamWriter(xmlDir + xmlFileOut))
+            using (XmlWriter xmlWriter = XmlWriter.Create(streamWriter, new XmlWriterSettings() { Indent = true }))
+            {
+                xmlSerializer.Serialize(xmlWriter, backstoryDefs);
             }
 
             return output.Trim();
