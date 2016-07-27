@@ -1,0 +1,139 @@
+[img]https://raw.githubusercontent.com/TheKrush/RimWorldTools/master/Mods/Storybook/About/preview.png[/img]
+
+[size=14pt][u]Description[/u][/size]
+Adds some more backstories to the game.
+  
+Childhood
+- Bully
+- Farm Kid
+- Fat Kid
+- Medieval Witch
+- Military Cadet
+- Miner Kid
+- Officer Cadet
+- Pet Sitter
+- Runaway
+- Sandbox Architect
+- Super Hero
+- Tester
+- Vatgrown Engineer
+- Vatgrown Slave
+- Young Cancer Survivor
+- Young Reader
+
+Adulthood
+- Cancer Survivor
+- Jack Of All Trades
+- Junior Officer
+- Medical Soldier
+- Mercenary Lieutenant
+- Military Scout
+- Musician
+- Police Officer
+- Police Sergeant
+- Politician
+- Professional Builder
+- Professional Farmer
+- Professional Miner
+- Senior Officer
+- Starship Bioengineer
+- Starship Cook
+- Starship Engineer
+- Starship Guard
+- Starship Nurse
+- Starship Pilot
+- Super Soldier
+- Veteran Marine
+- Video Game Blogger
+
+-------------------------
+
+AUTHORS
+
+[url=https://ludeon.com/forums/index.php?action=profile;u=1024]Andouce[/url]
+- childhood: Military Cadet, Officer Cadet
+- adulthood: Junior Officer, Medical Soldier, Mercenary Lieutenant, Military Scout, Police Officer, Police Sergeant, Politician, Senior Officer, Veteran Marine
+
+[url=https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/]CommunityCoreLibrary[/url]
+- childhood: Tester
+
+[url=http://steamcommunity.com/id/Drakoflame]Drako Edor[/url]
+- adulthood: Cancer Survivor
+
+[url=https://ludeon.com/forums/index.php?action=profile;u=13598]Igabod[/url]
+- childhood: Farm Kid, Miner Kid, Sandbox Architect
+- adulthood: Professional Builder, Professional Farmer, Professional Miner
+
+[url=https://ludeon.com/forums/index.php?action=profile;u=58969]Krush[/url]
+- childhood: Bully, Fat Kid, Pet Sitter, Runaway, Vatgrown Engineer, Vatgrown Slave
+- adulthood: Starship Bioengineer, Starship Cook, Starship Engineer, Starship Nurse, Starship Pilot
+
+[url=https://ludeon.com/forums/index.php?action=profile;u=45658]mokonasakura[/url]
+- childhood: Medieval Witch, Super Hero
+- adulthood: Jack Of All Trades, Musician, Starship Guard, Super Soldier
+
+[url=https://ludeon.com/forums/index.php?action=profile;u=41662]Ray_Anor[/url]
+- childhood: Young Reader
+- adulthood: Video Game Blogger
+
+[size=14pt][u]Changelog[/u][/size]
+[code]
+v1.01
+- Updated backstories to prevent any naming issues with other mods that also add backstories
+- Corrected the grammar in a few backstory descriptions
+- Added backstories
+ - Childhood
+  - Young Cancer Survivor
+ - Adulthood
+  - Cancer Survivor 
+
+v1.0
+- Added backstories
+ - Childhood
+  - Bully
+  - Farm Kid
+  - Fat Kid
+  - Medieval Witch
+  - Military Cadet
+  - Miner Kid
+  - Officer Cadet
+  - Pet Sitter
+  - Runaway
+  - Sandbox Architect
+  - Super Hero
+  - Tester
+  - Vatgrown Engineer
+  - Vatgrown Slave
+  - Young Reader
+ - Adulthood
+  - Jack Of All Trades
+  - Junior Officer
+  - Medical Soldier
+  - Mercenary Lieutenant
+  - Military Scout
+  - Musician
+  - Police Officer
+  - Police Sergeant
+  - Politician
+  - Professional Builder
+  - Professional Farmer
+  - Professional Miner
+  - Senior Officer
+  - Starship Bioengineer
+  - Starship Cook
+  - Starship Engineer
+  - Starship Guard
+  - Starship Nurse
+  - Starship Pilot
+  - Super Soldier
+  - Veteran Marine
+  - Video Game Blogger
+[/code]
+
+[size=14pt][u]Download[/u][/size]
+github: [url=https://github.com/TheKrush/RimWorldTools/]https://github.com/TheKrush/RimWorldTools/[/url]
+steam: [url=http://steamcommunity.com/sharedfiles/filedetails/?id=731619656]http://steamcommunity.com/sharedfiles/filedetails/?id=731619656[/url]
+zip: [url=https://github.com/TheKrush/RimWorldTools/archive/Storybookv1.01.zip]https://github.com/TheKrush/RimWorldTools/archive/Storybookv1.01.zip[/url]
+
+[size=14pt][u]Requires[/u][/size]
+[url=https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/]https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/[/url]
