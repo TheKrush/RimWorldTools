@@ -43,7 +43,7 @@ namespace Storybook
         private static XElement Sort(XElement element)
         {
             return new XElement(
-                element.Name, 
+                element.Name,
                 from child in element.Elements() orderby child.Name.ToString() select Sort(child));
         }
 
@@ -176,6 +176,8 @@ namespace Storybook
 
                 // remove any saveKeyIdentifier
                 xElement.SetElementValue("saveKeyIdentifier", null);
+                // now add it to the end
+                xElement.SetElementValue("saveKeyIdentifier", "Storybook");
 
                 // move author to the last element
                 string author = (string)xElement.Element("author") ?? "Krush";

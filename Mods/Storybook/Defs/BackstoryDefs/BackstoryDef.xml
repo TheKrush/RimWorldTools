@@ -26,6 +26,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FarmKid</defName>
@@ -56,6 +57,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FatKid</defName>
@@ -82,6 +84,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedievalWitch</defName>
@@ -121,6 +124,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryCadet</defName>
@@ -155,6 +159,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MinerKid</defName>
@@ -185,6 +190,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>OfficerCadet</defName>
@@ -215,6 +221,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PetSitter</defName>
@@ -238,6 +245,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Runaway</defName>
@@ -265,6 +273,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SandboxArchitect</defName>
@@ -291,6 +300,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperHero</defName>
@@ -324,6 +334,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Tester</defName>
@@ -345,6 +356,7 @@
       <li>Civil</li>
       <li>Tribal</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownEngineer</defName>
@@ -375,6 +387,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownSlave</defName>
@@ -402,6 +415,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>YoungReader</defName>
@@ -457,6 +471,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JackOfAllTrades</defName>
@@ -511,6 +526,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JuniorOfficer</defName>
@@ -537,6 +553,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedicalSoldier</defName>
@@ -567,6 +584,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MercenaryLieutenant</defName>
@@ -590,6 +608,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryScout</defName>
@@ -616,6 +635,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Musician</defName>
@@ -637,6 +657,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceOfficer</defName>
@@ -667,6 +688,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceSergeant</defName>
@@ -697,6 +719,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Politician</defName>
@@ -730,6 +753,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalBuilder</defName>
@@ -758,6 +782,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalFarmer</defName>
@@ -798,6 +823,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalMiner</defName>
@@ -837,6 +863,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SeniorOfficer</defName>
@@ -863,6 +890,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipBioengineer</defName>
@@ -895,6 +923,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipCook</defName>
@@ -929,6 +958,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipEngineer</defName>
@@ -960,6 +990,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipGuard</defName>
@@ -991,6 +1022,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipNurse</defName>
@@ -1022,6 +1054,7 @@
       <li>Civil</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipPilot</defName>
@@ -1054,6 +1087,7 @@
       <li>Civil</li>
       <li>Raider</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperSoldier</defName>
@@ -1081,6 +1115,7 @@
       <li>Raider</li>
       <li>Slave</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VeteranMarine</defName>
@@ -1103,6 +1138,7 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VideoGameBlogger</defName>
@@ -1133,5 +1169,6 @@
     <spawnCategories>
       <li>Civil</li>
     </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
 </Defs>
