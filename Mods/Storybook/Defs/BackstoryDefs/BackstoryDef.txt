@@ -443,7 +443,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Artistic</defName>
+        <defName>Crafting</defName>
         <amount>3</amount>
       </li>
       <li>
