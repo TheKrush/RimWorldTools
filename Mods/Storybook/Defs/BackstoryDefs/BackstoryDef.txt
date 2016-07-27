@@ -429,6 +429,36 @@
     <author>Krush</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
+    <defName>YoungCancerSurvivor</defName>
+    <title>Young Cancer survivor</title>
+    <titleShort>Survivor</titleShort>
+    <baseDescription>Sad truth is even kids get cancer. NAME was one of the unlucky children afflicted. Preventing HIM from interacting much with other children HE spent most of HIS time working on arts and crafts.</baseDescription>
+    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables />
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+    </spawnCategories>
+    <author>Krush</author>
+  </CommunityCoreLibrary.BackstoryDef>
+  <CommunityCoreLibrary.BackstoryDef>
     <defName>YoungReader</defName>
     <title>Young reader</title>
     <titleShort>Reader</titleShort>
@@ -484,6 +514,36 @@
       <li>Raider</li>
     </spawnCategories>
     <author>Ray_Anor</author>
+  </CommunityCoreLibrary.BackstoryDef>
+  <CommunityCoreLibrary.BackstoryDef>
+    <defName>CancerSurvivor</defName>
+    <title>Cancer survivor</title>
+    <titleShort>Survivor</titleShort>
+    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to them, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
+    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables />
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+    </spawnCategories>
+    <author>Drako Edor</author>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JackOfAllTrades</defName>
