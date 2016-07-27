@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Empty")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Electronic Arts")]
+[assembly: AssemblyCompany("Lost Minions")]
 [assembly: AssemblyProduct("Empty")]
-[assembly: AssemblyCopyright("Copyright © Electronic Arts 2012")]
+[assembly: AssemblyCopyright("Copyright © Lost Minions 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
