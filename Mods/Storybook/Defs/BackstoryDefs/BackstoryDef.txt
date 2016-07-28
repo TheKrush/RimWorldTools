@@ -5,7 +5,7 @@
     <title>Bully</title>
     <titleShort>Bully</titleShort>
     <baseDescription>NAME spent most of HIS childhood stealing other kids' lunch money.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -34,7 +34,7 @@
     <title>Farm kid</title>
     <titleShort>Farm kid</titleShort>
     <baseDescription>NAME grew up on a farm. HECAP played with sticks and had many pets. Life on the farm wasn't always fun and games for HIM however, HE had to learn how to carry HIS own weight and perform a wide variety of necessary tasks.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -66,7 +66,7 @@
     <title>Fat kid</title>
     <titleShort>Fat kid</titleShort>
     <baseDescription>NAME was always picked last in gym, which made HIM sad. NAME ate because HE was sad and HE was sad because HE ate.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -94,7 +94,7 @@
     <title>Medieval witch</title>
     <titleShort>Witch</titleShort>
     <baseDescription>NAME became interested in alchemy when HE was 5 years old. By the time HE was 9 HE had already created a cure for cancer. However, the church deemed HIS work witch craft, sentencing HIM to be frozen in ice so that HIS spirit may never see redemption.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -134,7 +134,7 @@
     <title>Military cadet</title>
     <titleShort>Cadet</titleShort>
     <baseDescription>NAME was a cadet in the Colonial College of Military Warfare from the age of 16. Following in HIS family's tradition, HE studied and sucessfully completed HIS training, picking up a few key skills on the way.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables />
@@ -170,7 +170,7 @@
     <title>Miner kid</title>
     <titleShort>Miner kid</titleShort>
     <baseDescription>NAME grew up with two miners for parents. HECAP listened to them speak to their friends about all the wonderous things they saw deep in the bowels of the planet. HECAP spent HIS entire life learning and dreaming about becoming a miner and exploring all kinds of caverns.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -202,7 +202,7 @@
     <title>Officer cadet</title>
     <titleShort>Cadet</titleShort>
     <baseDescription>NAME was a cadet in the Colonial Officer Training College from the age of 16. Having completed sucessfully HE picked up a few key skills and learned how to lead and combat threats from a strategical and tactical point of view.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables />
@@ -234,7 +234,7 @@
     <title>Pet sitter</title>
     <titleShort>Pet sitter</titleShort>
     <baseDescription>NAME loved animals and spent a good amount of HIS time looking after other people's pets. They always seemed to like HIM.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables />
@@ -260,7 +260,7 @@
     <title>Runaway</title>
     <titleShort>Runaway</titleShort>
     <baseDescription>NAME decided at a early age HE did not want to be where HE was so HE took off and never looked back.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -289,7 +289,7 @@
     <title>Sandbox architect</title>
     <titleShort>Sandbox architect</titleShort>
     <baseDescription>NAME spent all of HIS time as a child playing in the sandbox. While children would pile up a mound of sand in the center of the box and call it a castle and then immediately destroy it, NAME designed and built beautiful castles with courtyards and walls with crenellations punctuated by towers. HECAP often got into fist fights with the children when they tried to destroy HIS work.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -317,7 +317,7 @@
     <title>Super hero</title>
     <titleShort>Super hero</titleShort>
     <baseDescription>NAME was your typical super hero who went around saving cats in distress and helping old ladies cross the street. HECAP always lost HIS lunch money to the villain though.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -351,7 +351,7 @@
     <defName>Tester</defName>
     <title>Tester</title>
     <baseDescription>NAME has always been interested in testing things. Ever since HE was young, HE has been fiddling with and testing things.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -374,7 +374,7 @@
     <title>Vatgrown engineer</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>NAME was vat-grown as a engineer in an illegal urbworld laboratory. As a young child, HE was taught to tinker, build, and research. For most of HIS childhood, HE knew nothing else.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -405,7 +405,7 @@
     <title>Vatgrown slave</title>
     <titleShort>Slave</titleShort>
     <baseDescription>NAME was vat-grown as a slave in an illegal urbworld laboratory. As a young child, HE was taught only to cook, clean, and serve HIS masters. For most of HIS childhood, HE knew nothing else.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables>
@@ -433,7 +433,7 @@
     <title>Young Cancer survivor</title>
     <titleShort>Survivor</titleShort>
     <baseDescription>Sad truth is even kids get cancer. NAME was one of the unlucky children afflicted. Preventing HIM from interacting much with other children HE spent most of HIS time working on arts and crafts.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables />
@@ -463,7 +463,7 @@
     <title>Young reader</title>
     <titleShort>Reader</titleShort>
     <baseDescription>NAME always liked to read books... as many as HE could find... a whole lot many books. But HE didn't have many friends, because HE didn't have time for them.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
     <workDisables />
@@ -519,8 +519,8 @@
     <defName>CancerSurvivor</defName>
     <title>Cancer survivor</title>
     <titleShort>Survivor</titleShort>
-    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to them, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to HIM, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -550,7 +550,7 @@
     <title>Jack of all trades</title>
     <titleShort>The terminator</titleShort>
     <baseDescription>NAME detested violence when HE grew up, prefering a more civil approach to conflict. HECAP learned many ways to communicate with people because of this, earning HIM the nickname "the terminator" both as a joke to HIS unwillingness to fight and respect for being able to solve any problem.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -605,7 +605,7 @@
     <title>Junior officer</title>
     <titleShort>Lieutenant</titleShort>
     <baseDescription>NAME is a Junior Officer in HIS Colonies Colonial Marines. HECAP is a Lieutenant and has served in various conflicts and political events, earning medals for service. HECAP knows how to lead and turn the tide of conflicts.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -633,7 +633,7 @@
     <title>Medical soldier</title>
     <titleShort>Medic</titleShort>
     <baseDescription>NAME acts as Medical Support for the Colonial Marines of HIS Colony. Having medical experience HE is critical to the success of the squads.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -665,7 +665,7 @@
     <title>Mercenary lieutenant</title>
     <titleShort>Lieutenant</titleShort>
     <baseDescription>NAME is a Lieutenant of HIS own private force. A good shot with any weapon HE can handle himself, NAME can take out any threats and usually works for some quick cash. Well known HECAP is someone who you will want to watch out for.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -690,7 +690,7 @@
     <title>Military scout</title>
     <titleShort>Scout</titleShort>
     <baseDescription>NAME acts as Scout for the Colonial Marines of HIS Colony. A good shot with a rifle and deadly sights, NAME can take out any threats before the main forces arrive. HECAP is also good at hunting.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -718,7 +718,7 @@
     <title>Musician</title>
     <titleShort>Musician</titleShort>
     <baseDescription>NAME was a talented musician who created famous works such as "what does the fox say" and "elevator music". Well, sometimes bad things, such as being stranded on a rimworld, happen to good people.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -741,7 +741,7 @@
     <title>Police officer</title>
     <titleShort>Officer</titleShort>
     <baseDescription>NAME is a Police Officer for the Urban Police Service of Colonial Affairs. Having served for 2 years HE has just been promoted. HECAP will carry out HIS duties without hesitation.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -773,7 +773,7 @@
     <title>Police sergeant</title>
     <titleShort>Sergeant</titleShort>
     <baseDescription>NAME is a Police Sergeant for the Urban Police Service of Colonial Affairs, having served for several years. Locking up Criminals could never be better.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -805,7 +805,7 @@
     <title>Politician</title>
     <titleShort>Politician</titleShort>
     <baseDescription>NAME has served HIS Colonies Government for a full term of Office. HECAP sure knows how to talk and can inspire people to see things HIS way.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -840,7 +840,7 @@
     <title>Professional builder</title>
     <titleShort>Pro builder</titleShort>
     <baseDescription>NAME is a professional construction worker. HECAP has made HIS living by erecting buildings of all shapes and sizes. HECAP has limited skills in aspects, but few can match HIS proficiency in construction.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -869,7 +869,7 @@
     <title>Professional farmer</title>
     <titleShort>Pro farmer</titleShort>
     <baseDescription>NAME is a professional farmer. HECAP has made HIS living by growing the food and commercial products which make the world run. HISCAP experience at living on the farm has taught HIM how to handle just about every task vital to survival.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -910,7 +910,7 @@
     <title>Professional miner</title>
     <titleShort>Pro miner</titleShort>
     <baseDescription>NAME is a professional miner. HECAP has made HIS living by busting up rocks and minerals found used in construction and industrial applications throughout the galaxy. Often times, HE has had to repair HIS own tools while deep in the mine and frequently has to build supports for the mines. So HE has acquired a few skills which pertain to that.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -950,7 +950,7 @@
     <title>Senior officer</title>
     <titleShort>Major</titleShort>
     <baseDescription>NAME is a Senior Officer in HIS Colonies Colonial Marines. HECAP is a Major and has served for many years, earning countless medals and commendations. HECAP may have been out of combat for a while but HE can still defend HIS Colony and lead with style.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -978,7 +978,7 @@
     <title>Starship bioengineer</title>
     <titleShort>Bioengineer</titleShort>
     <baseDescription>NAME was a bioengineer on a starship. HECAP was quite adept at coming up with new ways to get those plants growing ever so slighty better than the last strain.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1011,7 +1011,7 @@
     <title>Starship cook</title>
     <titleShort>Cook</titleShort>
     <baseDescription>NAME was a cook on a starship. HE was very good and ended up spending more time eating HIS own creations than HE should have.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1046,7 +1046,7 @@
     <title>Starship engineer</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>NAME was a engineer on a starship. HECAP always liked fixing things so HE hopped on the first starship HE saw to be their engineer keeping things running 'smoothly'. HECAP spends a good amount of time tinkering with things on the ship that HE probably shouldn't be while s are in cryptosleep.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1078,7 +1078,7 @@
     <title>Starship guard</title>
     <titleShort>Guard</titleShort>
     <baseDescription>NAME enrolled to join the galatic military but after an accident with a fellow soldier HE was sent to a base called the "deathstar" to improve HIS aim and to keep HIM under surveillance. HECAP swears HIS gun simply malfunctioned.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <skillGains>
@@ -1110,7 +1110,7 @@
     <title>Starship nurse</title>
     <titleShort>Nurse</titleShort>
     <baseDescription>NAME was a nurse on a starship. HE was a very charismatic nurse with a great bedside manner. After years of caring for battle wounds HE has become a pacifist.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1142,7 +1142,7 @@
     <title>Starship pilot</title>
     <titleShort>Pilot</titleShort>
     <baseDescription>NAME was a pilot on a starship. HE has very fast reflexes. Chances are if HIS ship went down HE was not piloting it at the time, or something very bad was chasing it.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1175,7 +1175,7 @@
     <title>Super soldier</title>
     <titleShort>117</titleShort>
     <baseDescription>NAME is a super soldier created to battle unknown threats in the universe.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables>
@@ -1203,7 +1203,7 @@
     <title>Veteran marine</title>
     <titleShort>Sergeant major</titleShort>
     <baseDescription>NAME is a Veteran Soldier in HIS Colony's Colonial Marines. HECAP is a Sergeant Major and has served for many years, earning countless medals for bravery and distingushed service. HECAP has fought in numerous campaigns and thus knows how to fight and lead in extreme situations.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />
@@ -1227,7 +1227,7 @@
     <title>Video game blogger</title>
     <titleShort>Gameblogger</titleShort>
     <baseDescription>NAME has worked as programmer in big corp. HECAP has two hobbies: videogaming and videoblogging.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
     <workDisables />

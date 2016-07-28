@@ -1,12 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Defs>
+<?xml version="1.0" encoding="utf-8"?>
+<Defs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Bully</defName>
-    <title>Bully</title>
     <baseDescription>NAME spent most of HIS childhood stealing other kids' lunch money.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <title>Bully</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
       <li>Social</li>
@@ -30,11 +34,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FarmKid</defName>
-    <title>Farm kid</title>
     <baseDescription>NAME grew up on a farm. HECAP played with sticks and had many pets. Life on the farm wasn't always fun and games for HIM however, HE had to learn how to carry HIS own weight and perform a wide variety of necessary tasks.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Farm kid</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>None</li>
     </workDisables>
@@ -61,11 +69,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>FatKid</defName>
-    <title>Fat kid</title>
     <baseDescription>NAME was always picked last in gym, which made HIM sad. NAME ate because HE was sad and HE was sad because HE ate.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
+    <title>Fat kid</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>ManualDumb</li>
     </workDisables>
@@ -88,12 +100,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedievalWitch</defName>
+    <baseDescription>NAME became interested in alchemy when HE was 5 years old. By the time HE was 9 HE had already created a cure for cancer. However, the church deemed HIS work witch craft, sentencing HIM to be frozen in ice so that HIS spirit may never see redemption.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Medieval witch</title>
     <titleShort>Witch</titleShort>
-    <baseDescription>NAME became interested in alchemy when HE was 5 years old. By the time HE was 9 HE had already created a cure for cancer. However, the church deemed HIS work witch craft, sentencing HIM to be frozen in ice so that HIS spirit may never see redemption.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Social</li>
     </workDisables>
@@ -128,12 +144,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryCadet</defName>
+    <baseDescription>NAME was a cadet in the Colonial College of Military Warfare from the age of 16. Following in HIS family's tradition, HE studied and sucessfully completed HIS training, picking up a few key skills on the way.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Military cadet</title>
     <titleShort>Cadet</titleShort>
-    <baseDescription>NAME was a cadet in the Colonial College of Military Warfare from the age of 16. Following in HIS family's tradition, HE studied and sucessfully completed HIS training, picking up a few key skills on the way.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -163,11 +184,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MinerKid</defName>
-    <title>Miner kid</title>
     <baseDescription>NAME grew up with two miners for parents. HECAP listened to them speak to their friends about all the wonderous things they saw deep in the bowels of the planet. HECAP spent HIS entire life learning and dreaming about becoming a miner and exploring all kinds of caverns.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Miner kid</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>None</li>
     </workDisables>
@@ -194,12 +219,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>OfficerCadet</defName>
+    <baseDescription>NAME was a cadet in the Colonial Officer Training College from the age of 16. Having completed sucessfully HE picked up a few key skills and learned how to lead and combat threats from a strategical and tactical point of view.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Officer cadet</title>
     <titleShort>Cadet</titleShort>
-    <baseDescription>NAME was a cadet in the Colonial Officer Training College from the age of 16. Having completed sucessfully HE picked up a few key skills and learned how to lead and combat threats from a strategical and tactical point of view.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -225,11 +255,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PetSitter</defName>
-    <title>Pet sitter</title>
     <baseDescription>NAME loved animals and spent a good amount of HIS time looking after other people's pets. They always seemed to like HIM.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Pet sitter</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Animals</defName>
@@ -249,11 +284,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Runaway</defName>
-    <title>Runaway</title>
     <baseDescription>NAME decided at a early age HE did not want to be where HE was so HE took off and never looked back.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
+    <title>Runaway</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
       <li>Social</li>
@@ -277,11 +316,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SandboxArchitect</defName>
-    <title>Sandbox architect</title>
     <baseDescription>NAME spent all of HIS time as a child playing in the sandbox. While children would pile up a mound of sand in the center of the box and call it a castle and then immediately destroy it, NAME designed and built beautiful castles with courtyards and walls with crenellations punctuated by towers. HECAP often got into fist fights with the children when they tried to destroy HIS work.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Sandbox architect</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>None</li>
     </workDisables>
@@ -304,11 +347,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperHero</defName>
-    <title>Super hero</title>
     <baseDescription>NAME was your typical super hero who went around saving cats in distress and helping old ladies cross the street. HECAP always lost HIS lunch money to the villain though.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
+    <title>Super hero</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
     </workDisables>
@@ -338,11 +385,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Tester</defName>
-    <title>Tester</title>
     <baseDescription>NAME has always been interested in testing things. Ever since HE was young, HE has been fiddling with and testing things.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <title>Tester</title>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Artistic</li>
     </workDisables>
@@ -360,12 +411,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownEngineer</defName>
+    <baseDescription>NAME was vat-grown as a engineer in an illegal urbworld laboratory. As a young child, HE was taught to tinker, build, and research. For most of HIS childhood, HE knew nothing else.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Vatgrown engineer</title>
     <titleShort>Engineer</titleShort>
-    <baseDescription>NAME was vat-grown as a engineer in an illegal urbworld laboratory. As a young child, HE was taught to tinker, build, and research. For most of HIS childhood, HE knew nothing else.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Violent</li>
     </workDisables>
@@ -391,12 +446,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VatgrownSlave</defName>
+    <baseDescription>NAME was vat-grown as a slave in an illegal urbworld laboratory. As a young child, HE was taught only to cook, clean, and serve HIS masters. For most of HIS childhood, HE knew nothing else.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Vatgrown slave</title>
     <titleShort>Slave</titleShort>
-    <baseDescription>NAME was vat-grown as a slave in an illegal urbworld laboratory. As a young child, HE was taught only to cook, clean, and serve HIS masters. For most of HIS childhood, HE knew nothing else.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
       <li>Violent</li>
@@ -419,12 +478,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>YoungCancerSurvivor</defName>
+    <baseDescription>Sad truth is even kids get cancer. NAME was one of the unlucky children afflicted. Preventing HIM from interacting much with other children HE spent most of HIS time working on arts and crafts.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Young cancer survivor</title>
     <titleShort>Survivor</titleShort>
-    <baseDescription>Sad truth is even kids get cancer. NAME was one of the unlucky children afflicted. Preventing HIM from interacting much with other children HE spent most of HIS time working on arts and crafts.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -448,12 +512,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>YoungReader</defName>
+    <baseDescription>NAME always liked to read books... as many as HE could find... a whole lot many books. But HE didn't have many friends, because HE didn't have time for them.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Young reader</title>
     <titleShort>Reader</titleShort>
-    <baseDescription>NAME always liked to read books... as many as HE could find... a whole lot many books. But HE didn't have many friends, because HE didn't have time for them.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -504,12 +573,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>CancerSurvivor</defName>
+    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to HIM, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Cancer survivor</title>
     <titleShort>Survivor</titleShort>
-    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to them, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Growing</defName>
@@ -533,12 +607,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JackOfAllTrades</defName>
+    <baseDescription>NAME detested violence when HE grew up, prefering a more civil approach to conflict. HECAP learned many ways to communicate with people because of this, earning HIM the nickname "the terminator" both as a joke to HIS unwillingness to fight and respect for being able to solve any problem.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Jack of all trades</title>
     <titleShort>The terminator</titleShort>
-    <baseDescription>NAME detested violence when HE grew up, prefering a more civil approach to conflict. HECAP learned many ways to communicate with people because of this, earning HIM the nickname "the terminator" both as a joke to HIS unwillingness to fight and respect for being able to solve any problem.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Violent</li>
     </workDisables>
@@ -588,12 +666,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>JuniorOfficer</defName>
+    <baseDescription>NAME is a Junior Officer in HIS Colonies Colonial Marines. HECAP is a Lieutenant and has served in various conflicts and political events, earning medals for service. HECAP knows how to lead and turn the tide of conflicts.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Junior officer</title>
     <titleShort>Lieutenant</titleShort>
-    <baseDescription>NAME is a Junior Officer in HIS Colonies Colonial Marines. HECAP is a Lieutenant and has served in various conflicts and political events, earning medals for service. HECAP knows how to lead and turn the tide of conflicts.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -615,12 +698,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MedicalSoldier</defName>
+    <baseDescription>NAME acts as Medical Support for the Colonial Marines of HIS Colony. Having medical experience HE is critical to the success of the squads.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Medical soldier</title>
     <titleShort>Medic</titleShort>
-    <baseDescription>NAME acts as Medical Support for the Colonial Marines of HIS Colony. Having medical experience HE is critical to the success of the squads.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Medicine</defName>
@@ -646,12 +734,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MercenaryLieutenant</defName>
+    <baseDescription>NAME is a Lieutenant of HIS own private force. A good shot with any weapon HE can handle himself, NAME can take out any threats and usually works for some quick cash. Well known HECAP is someone who you will want to watch out for.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Mercenary lieutenant</title>
     <titleShort>Lieutenant</titleShort>
-    <baseDescription>NAME is a Lieutenant of HIS own private force. A good shot with any weapon HE can handle himself, NAME can take out any threats and usually works for some quick cash. Well known HECAP is someone who you will want to watch out for.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -670,12 +763,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>MilitaryScout</defName>
+    <baseDescription>NAME acts as Scout for the Colonial Marines of HIS Colony. A good shot with a rifle and deadly sights, NAME can take out any threats before the main forces arrive. HECAP is also good at hunting.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Military scout</title>
     <titleShort>Scout</titleShort>
-    <baseDescription>NAME acts as Scout for the Colonial Marines of HIS Colony. A good shot with a rifle and deadly sights, NAME can take out any threats before the main forces arrive. HECAP is also good at hunting.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Cooking</defName>
@@ -697,11 +795,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Musician</defName>
-    <title>Musician</title>
     <baseDescription>NAME was a talented musician who created famous works such as "what does the fox say" and "elevator music". Well, sometimes bad things, such as being stranded on a rimworld, happen to good people.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Musician</title>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
     </workDisables>
@@ -719,12 +821,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceOfficer</defName>
+    <baseDescription>NAME is a Police Officer for the Urban Police Service of Colonial Affairs. Having served for 2 years HE has just been promoted. HECAP will carry out HIS duties without hesitation.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Police officer</title>
     <titleShort>Officer</titleShort>
-    <baseDescription>NAME is a Police Officer for the Urban Police Service of Colonial Affairs. Having served for 2 years HE has just been promoted. HECAP will carry out HIS duties without hesitation.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -750,12 +857,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>PoliceSergeant</defName>
+    <baseDescription>NAME is a Police Sergeant for the Urban Police Service of Colonial Affairs, having served for several years. Locking up Criminals could never be better.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Police sergeant</title>
     <titleShort>Sergeant</titleShort>
-    <baseDescription>NAME is a Police Sergeant for the Urban Police Service of Colonial Affairs, having served for several years. Locking up Criminals could never be better.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>
@@ -781,11 +893,15 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>Politician</defName>
-    <title>Politician</title>
     <baseDescription>NAME has served HIS Colonies Government for a full term of Office. HECAP sure knows how to talk and can inspire people to see things HIS way.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <title>Politician</title>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Crafting</li>
       <li>Firefighting</li>
@@ -815,12 +931,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalBuilder</defName>
+    <baseDescription>NAME is a professional construction worker. HECAP has made HIS living by erecting buildings of all shapes and sizes. HECAP has limited skills in aspects, but few can match HIS proficiency in construction.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional builder</title>
     <titleShort>Pro builder</titleShort>
-    <baseDescription>NAME is a professional construction worker. HECAP has made HIS living by erecting buildings of all shapes and sizes. HECAP has limited skills in aspects, but few can match HIS proficiency in construction.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Caring</li>
       <li>Cooking</li>
@@ -844,12 +964,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalFarmer</defName>
+    <baseDescription>NAME is a professional farmer. HECAP has made HIS living by growing the food and commercial products which make the world run. HISCAP experience at living on the farm has taught HIM how to handle just about every task vital to survival.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional farmer</title>
     <titleShort>Pro farmer</titleShort>
-    <baseDescription>NAME is a professional farmer. HECAP has made HIS living by growing the food and commercial products which make the world run. HISCAP experience at living on the farm has taught HIM how to handle just about every task vital to survival.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Intellectual</li>
       <li>Mining</li>
@@ -885,12 +1009,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>ProfessionalMiner</defName>
+    <baseDescription>NAME is a professional miner. HECAP has made HIS living by busting up rocks and minerals found used in construction and industrial applications throughout the galaxy. Often times, HE has had to repair HIS own tools while deep in the mine and frequently has to build supports for the mines. So HE has acquired a few skills which pertain to that.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional miner</title>
     <titleShort>Pro miner</titleShort>
-    <baseDescription>NAME is a professional miner. HECAP has made HIS living by busting up rocks and minerals found used in construction and industrial applications throughout the galaxy. Often times, HE has had to repair HIS own tools while deep in the mine and frequently has to build supports for the mines. So HE has acquired a few skills which pertain to that.</baseDescription>
-    <bodytypeMale>Hulk</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>None</li>
     </workDisables>
@@ -925,12 +1053,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SeniorOfficer</defName>
+    <baseDescription>NAME is a Senior Officer in HIS Colonies Colonial Marines. HECAP is a Major and has served for many years, earning countless medals and commendations. HECAP may have been out of combat for a while but HE can still defend HIS Colony and lead with style.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Senior officer</title>
     <titleShort>Major</titleShort>
-    <baseDescription>NAME is a Senior Officer in HIS Colonies Colonial Marines. HECAP is a Major and has served for many years, earning countless medals and commendations. HECAP may have been out of combat for a while but HE can still defend HIS Colony and lead with style.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -952,16 +1085,20 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipBioengineer</defName>
+    <baseDescription>NAME was a bioengineer on a starship. HECAP was quite adept at coming up with new ways to get those plants growing ever so slighty better than the last strain.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Starship bioengineer</title>
     <titleShort>Bioengineer</titleShort>
-    <baseDescription>NAME was a bioengineer on a starship. HECAP was quite adept at coming up with new ways to get those plants growing ever so slighty better than the last strain.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
+      <li>Violent</li>
       <li>Crafting</li>
       <li>Mining</li>
-      <li>Violent</li>
     </workDisables>
     <skillGains>
       <li>
@@ -985,17 +1122,21 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipCook</defName>
+    <baseDescription>NAME was a cook on a starship. HE was very good and ended up spending more time eating HIS own creations than HE should have.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
     <title>Starship cook</title>
     <titleShort>Cook</titleShort>
-    <baseDescription>NAME was a cook on a starship. HE was very good and ended up spending more time eating HIS own creations than HE should have.</baseDescription>
-    <bodytypeMale>Fat</bodytypeMale>
-    <bodyTypeFemale>Fat</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
-      <li>Crafting</li>
-      <li>Hauling</li>
       <li>Intellectual</li>
       <li>Social</li>
+      <li>Crafting</li>
+      <li>Hauling</li>
     </workDisables>
     <skillGains>
       <li>
@@ -1020,12 +1161,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipEngineer</defName>
+    <baseDescription>NAME was a engineer on a starship. HECAP always liked fixing things so HE hopped on the first starship HE saw to be their engineer keeping things running 'smoothly'. HECAP spends a good amount of time tinkering with things on the ship that HE probably shouldn't be while s are in cryptosleep.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Starship engineer</title>
     <titleShort>Engineer</titleShort>
-    <baseDescription>NAME was a engineer on a starship. HECAP always liked fixing things so HE hopped on the first starship HE saw to be their engineer keeping things running 'smoothly'. HECAP spends a good amount of time tinkering with things on the ship that HE probably shouldn't be while s are in cryptosleep.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Artistic</li>
       <li>PlantWork</li>
@@ -1052,12 +1197,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipGuard</defName>
+    <baseDescription>NAME enrolled to join the galatic military but after an accident with a fellow soldier HE was sent to a base called the "deathstar" to improve HIS aim and to keep HIM under surveillance. HECAP swears HIS gun simply malfunctioned.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Starship guard</title>
     <titleShort>Guard</titleShort>
-    <baseDescription>NAME enrolled to join the galatic military but after an accident with a fellow soldier HE was sent to a base called the "deathstar" to improve HIS aim and to keep HIM under surveillance. HECAP swears HIS gun simply malfunctioned.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Construction</defName>
@@ -1084,15 +1234,19 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipNurse</defName>
+    <baseDescription>NAME was a nurse on a starship. HE was a very charismatic nurse with a great bedside manner. After years of caring for battle wounds HE has become a pacifist.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Starship nurse</title>
     <titleShort>Nurse</titleShort>
-    <baseDescription>NAME was a nurse on a starship. HE was a very charismatic nurse with a great bedside manner. After years of caring for battle wounds HE has become a pacifist.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
-      <li>PlantWork</li>
       <li>Violent</li>
+      <li>PlantWork</li>
     </workDisables>
     <skillGains>
       <li>
@@ -1116,12 +1270,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>StarshipPilot</defName>
+    <baseDescription>NAME was a pilot on a starship. HE has very fast reflexes. Chances are if HIS ship went down HE was not piloting it at the time, or something very bad was chasing it.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Starship pilot</title>
     <titleShort>Pilot</titleShort>
-    <baseDescription>NAME was a pilot on a starship. HE has very fast reflexes. Chances are if HIS ship went down HE was not piloting it at the time, or something very bad was chasing it.</baseDescription>
-    <bodytypeMale>Thin</bodytypeMale>
-    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Artistic</li>
       <li>Crafting</li>
@@ -1149,12 +1307,16 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>SuperSoldier</defName>
+    <baseDescription>NAME is a super soldier created to battle unknown threats in the universe.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Super soldier</title>
     <titleShort>117</titleShort>
-    <baseDescription>NAME is a super soldier created to battle unknown threats in the universe.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
     <workDisables>
       <li>Social</li>
     </workDisables>
@@ -1177,12 +1339,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VeteranMarine</defName>
+    <baseDescription>NAME is a Veteran Soldier in HIS Colony's Colonial Marines. HECAP is a Sergeant Major and has served for many years, earning countless medals for bravery and distingushed service. HECAP has fought in numerous campaigns and thus knows how to fight and lead in extreme situations.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Veteran marine</title>
     <titleShort>Sergeant major</titleShort>
-    <baseDescription>NAME is a Veteran Soldier in HIS Colony's Colonial Marines. HECAP is a Sergeant Major and has served for many years, earning countless medals for bravery and distingushed service. HECAP has fought in numerous campaigns and thus knows how to fight and lead in extreme situations.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -1200,12 +1367,17 @@
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
     <defName>VideoGameBlogger</defName>
+    <baseDescription>NAME has worked as programmer in big corp. HECAP has two hobbies: videogaming and videoblogging.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Video game blogger</title>
     <titleShort>Gameblogger</titleShort>
-    <baseDescription>NAME has worked as programmer in big corp. HECAP has two hobbies: videogaming and videoblogging.</baseDescription>
-    <bodytypeMale>Male</bodytypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
     <skillGains>
       <li>
         <defName>Artistic</defName>

@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Storybook")]
+[assembly: AssemblyTitle("RimWorldLib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Lost Minions")]
-[assembly: AssemblyProduct("Storybook")]
+[assembly: AssemblyProduct("RimWorldLib")]
 [assembly: AssemblyCopyright("Copyright © Lost Minions 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

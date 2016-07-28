@@ -1,0 +1,3 @@
+[submodule "Tools/CommunityCoreLibrary"]
+	path = Tools/CommunityCoreLibrary
+	url = https://github.com/TheKrush/CommunityCoreLibrary.git
