@@ -4,7 +4,7 @@
     <defName>Bully</defName>
     <baseDescription>NAME spent most of HIS childhood stealing other kids' lunch money.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <title>Bully</title>
     <slot>Childhood</slot>
@@ -36,7 +36,7 @@
     <defName>FarmKid</defName>
     <baseDescription>NAME grew up on a farm. HECAP played with sticks and had many pets. Life on the farm wasn't always fun and games for HIM however, HE had to learn how to carry HIS own weight and perform a wide variety of necessary tasks.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Farm kid</title>
     <slot>Childhood</slot>
@@ -71,7 +71,7 @@
     <defName>FatKid</defName>
     <baseDescription>NAME was always picked last in gym, which made HIM sad. NAME ate because HE was sad and HE was sad because HE ate.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <title>Fat kid</title>
     <slot>Childhood</slot>
@@ -186,7 +186,7 @@
     <defName>MinerKid</defName>
     <baseDescription>NAME grew up with two miners for parents. HECAP listened to them speak to their friends about all the wonderous things they saw deep in the bowels of the planet. HECAP spent HIS entire life learning and dreaming about becoming a miner and exploring all kinds of caverns.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Miner kid</title>
     <slot>Childhood</slot>
@@ -286,7 +286,7 @@
     <defName>Runaway</defName>
     <baseDescription>NAME decided at a early age HE did not want to be where HE was so HE took off and never looked back.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Runaway</title>
     <slot>Childhood</slot>
@@ -318,7 +318,7 @@
     <defName>SandboxArchitect</defName>
     <baseDescription>NAME spent all of HIS time as a child playing in the sandbox. While children would pile up a mound of sand in the center of the box and call it a castle and then immediately destroy it, NAME designed and built beautiful castles with courtyards and walls with crenellations punctuated by towers. HECAP often got into fist fights with the children when they tried to destroy HIS work.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Sandbox architect</title>
     <slot>Childhood</slot>
@@ -349,7 +349,7 @@
     <defName>SuperHero</defName>
     <baseDescription>NAME was your typical super hero who went around saving cats in distress and helping old ladies cross the street. HECAP always lost HIS lunch money to the villain though.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Super hero</title>
     <slot>Childhood</slot>
@@ -387,7 +387,7 @@
     <defName>Tester</defName>
     <baseDescription>NAME has always been interested in testing things. Ever since HE was young, HE has been fiddling with and testing things.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <title>Tester</title>
     <slot>Childhood</slot>
@@ -448,7 +448,7 @@
     <defName>VatgrownSlave</defName>
     <baseDescription>NAME was vat-grown as a slave in an illegal urbworld laboratory. As a young child, HE was taught only to cook, clean, and serve HIS masters. For most of HIS childhood, HE knew nothing else.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Vatgrown slave</title>
     <titleShort>Slave</titleShort>
@@ -480,7 +480,7 @@
     <defName>YoungCancerSurvivor</defName>
     <baseDescription>Sad truth is even kids get cancer. NAME was one of the unlucky children afflicted. Preventing HIM from interacting much with other children HE spent most of HIS time working on arts and crafts.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Young cancer survivor</title>
     <titleShort>Survivor</titleShort>
@@ -514,7 +514,7 @@
     <defName>YoungReader</defName>
     <baseDescription>NAME always liked to read books... as many as HE could find... a whole lot many books. But HE didn't have many friends, because HE didn't have time for them.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Young reader</title>
     <titleShort>Reader</titleShort>
@@ -575,7 +575,7 @@
     <defName>CancerSurvivor</defName>
     <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to HIM, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Cancer survivor</title>
     <titleShort>Survivor</titleShort>
@@ -609,7 +609,7 @@
     <defName>JackOfAllTrades</defName>
     <baseDescription>NAME detested violence when HE grew up, prefering a more civil approach to conflict. HECAP learned many ways to communicate with people because of this, earning HIM the nickname "the terminator" both as a joke to HIS unwillingness to fight and respect for being able to solve any problem.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Jack of all trades</title>
     <titleShort>The terminator</titleShort>
@@ -933,7 +933,7 @@
     <defName>ProfessionalBuilder</defName>
     <baseDescription>NAME is a professional construction worker. HECAP has made HIS living by erecting buildings of all shapes and sizes. HECAP has limited skills in aspects, but few can match HIS proficiency in construction.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional builder</title>
     <titleShort>Pro builder</titleShort>
@@ -966,7 +966,7 @@
     <defName>ProfessionalFarmer</defName>
     <baseDescription>NAME is a professional farmer. HECAP has made HIS living by growing the food and commercial products which make the world run. HISCAP experience at living on the farm has taught HIM how to handle just about every task vital to survival.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional farmer</title>
     <titleShort>Pro farmer</titleShort>
@@ -1011,7 +1011,7 @@
     <defName>ProfessionalMiner</defName>
     <baseDescription>NAME is a professional miner. HECAP has made HIS living by busting up rocks and minerals found used in construction and industrial applications throughout the galaxy. Often times, HE has had to repair HIS own tools while deep in the mine and frequently has to build supports for the mines. So HE has acquired a few skills which pertain to that.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <title>Professional miner</title>
     <titleShort>Pro miner</titleShort>
@@ -1124,7 +1124,7 @@
     <defName>StarshipCook</defName>
     <baseDescription>NAME was a cook on a starship. HE was very good and ended up spending more time eating HIS own creations than HE should have.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <title>Starship cook</title>
     <titleShort>Cook</titleShort>
@@ -1272,7 +1272,7 @@
     <defName>StarshipPilot</defName>
     <baseDescription>NAME was a pilot on a starship. HE has very fast reflexes. Chances are if HIS ship went down HE was not piloting it at the time, or something very bad was chasing it.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <title>Starship pilot</title>
     <titleShort>Pilot</titleShort>
