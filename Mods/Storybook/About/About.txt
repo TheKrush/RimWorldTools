@@ -6,6 +6,5 @@
   <targetVersion>0.14.1238</targetVersion>
   <description>Requires: CommunityCoreLibrary
 
-Adds some more backstories to the game.
-  </description>
+Adds some more backstories to the game.</description>
 </ModMetaData>
