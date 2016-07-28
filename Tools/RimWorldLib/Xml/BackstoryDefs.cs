@@ -1,4 +1,13 @@
-﻿namespace RimWorldLib.Xml
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="BackstoryDefs.cs" company="Lost Minions">
+//   Copyright (c) Lost Minions. All rights reserved.
+// </copyright>
+// <summary>
+//   Defines the BackstoryDefs type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace RimWorldLib.Xml
 {
     using System.Collections.Generic;
     using System.Xml.Serialization;
@@ -8,20 +17,13 @@
     [XmlRoot("Defs")]
     public class BackstoryDefs
     {
-        #region Fields
-
         [XmlElement("CommunityCoreLibrary.BackstoryDef")]
-        public List<BackstoryDefEx> Backstories;
-
-        #endregion
+        public List<BackstoryDefEx> Backstories { get; set; }
 
         public class BackstoryDefEx : BackstoryDef
         {
-            #region Fields
-
-            public string author;
-
-            #endregion
+            [XmlElement("author")]
+            public string Author { get; set; }
         }
     }
 }

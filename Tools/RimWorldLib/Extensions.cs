@@ -1,4 +1,13 @@
-﻿namespace RimWorldLib
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Extensions.cs" company="Lost Minions">
+//   Copyright (c) Lost Minions. All rights reserved.
+// </copyright>
+// <summary>
+//   Defines the Extensions type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace RimWorldLib
 {
     using System;
     using System.Linq.Expressions;

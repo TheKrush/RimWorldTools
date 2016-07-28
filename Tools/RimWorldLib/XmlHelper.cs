@@ -1,4 +1,13 @@
-﻿namespace RimWorldLib
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="XmlHelper.cs" company="Lost Minions">
+//   Copyright (c) Lost Minions. All rights reserved.
+// </copyright>
+// <summary>
+//   Defines the XmlHelper type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace RimWorldLib
 {
     using System;
     using System.Collections;
