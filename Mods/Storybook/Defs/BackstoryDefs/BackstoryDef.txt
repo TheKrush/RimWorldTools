@@ -519,7 +519,7 @@
     <defName>CancerSurvivor</defName>
     <title>Cancer survivor</title>
     <titleShort>Survivor</titleShort>
-    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to them, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
+    <baseDescription>After battling cancer for years as a teen, NAME has grown accustom to the sight of sickness and death, as well as aware of HIS own mortality and willingly accept it. Surgery is no different to HIM, than someone else brushing their teeth, pain is but an fact of life. Spending years in the hospital has helped, medicine seems to make more sense to HIM than others.</baseDescription>
     <bodytypeMale>Thin</bodytypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>

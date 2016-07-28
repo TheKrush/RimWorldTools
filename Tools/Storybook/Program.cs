@@ -1,13 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Program.cs" company="">
-// </copyright>
-// <summary>
-//   This program simply does some cleanup converting my version of the About\About.xml and
-//   BackstoryDefXml\BackstoryDefs\BackstoryDefs.xml (mine are the .txt) to remove some things I use for generating part of the
-//   About.xml description.
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-namespace Storybook
+﻿namespace Storybook
 {
     using System;
     using System.IO;
@@ -19,6 +10,7 @@ namespace Storybook
 
     using RimWorld;
 
+    using RimWorldLib;
     using RimWorldLib.Xml;
 
     internal class Program
@@ -43,27 +35,25 @@ namespace Storybook
             }
 
             UpdateAboutDescription(UpdateBackstoryDef());
+
+            Console.Write("Press any key to continue ...");
+            Console.ReadKey();
         }
 
         private static XElement Sort(XElement element)
         {
             return new XElement(
-                element.Name, 
+                element.Name,
                 from child in element.Elements() orderby child.Name.ToString() select Sort(child));
         }
 
-        private static XDocument Sort(XDocument file)
-        {
-            return new XDocument(Sort(file.Root));
-        }
+        private static XDocument Sort(XDocument file) { return new XDocument(Sort(file.Root)); }
 
         private static void UpdateAboutDescription(string desc)
         {
-            string xmlDir = storybookDir + @"About\";
-            string xmlFileIn = @"About.txt";
-            string xmlFileOut = @"About.xml";
+            string xmlFile = storybookDir + @"About\About";
 
-            XElement root = XElement.Load(xmlDir + xmlFileIn);
+            XElement root = XElement.Load(xmlFile + ".txt");
 
             var description = root.Element("description");
             if (description != null)
@@ -71,21 +61,22 @@ namespace Storybook
                 description.SetValue(description.Value + Environment.NewLine + desc);
             }
 
-            root.Save(xmlDir + xmlFileOut);
+            root.Save(xmlFile + ".xml");
         }
 
         private static string UpdateBackstoryDef()
         {
             string output = string.Empty;
 
-            string xmlDir = storybookDir + @"Defs\BackstoryDefs\";
-            string xmlFileIn = @"BackstoryDef.txt";
-            string xmlFileOut = @"BackstoryDef.xml";
+            string xmlFile = storybookDir + @"Defs\BackstoryDefs\BackstoryDef";
 
             BackstoryDefs backstoryDefs;
 
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(BackstoryDefs));
-            using (StreamReader streamReader = new StreamReader(xmlDir + xmlFileIn))
+            XmlSerializer xmlSerializer = new XmlSerializer(
+                typeof(BackstoryDefs),
+                XmlHelper.GetCommonOverrides(typeof(BackstoryDefs.BackstoryDefEx)));
+
+            using (StreamReader streamReader = new StreamReader(xmlFile + ".txt"))
             using (XmlReader xmlReader = XmlReader.Create(streamReader))
             {
                 backstoryDefs = (BackstoryDefs)xmlSerializer.Deserialize(xmlReader);
@@ -93,12 +84,10 @@ namespace Storybook
 
             backstoryDefs.Backstories.Sort(
                 (a, b) =>
-                    {
-                        int slotCompare = a.slot.CompareTo(b.slot);
-                        return slotCompare != 0
-                                   ? slotCompare
-                                   : string.Compare(a.title, b.title, StringComparison.Ordinal);
-                    });
+                {
+                    int slotCompare = a.slot.CompareTo(b.slot);
+                    return slotCompare != 0 ? slotCompare : string.Compare(a.title, b.title, StringComparison.Ordinal);
+                });
 
             const int TitleShortLengthWarn = 15;
             foreach (BackstoryDefs.BackstoryDefEx backstoryDef in backstoryDefs.Backstories)
@@ -112,7 +101,8 @@ namespace Storybook
                 }
 
                 // check short title length
-                if (backstoryDef.titleShort.Length >= TitleShortLengthWarn)
+                if (backstoryDef.slot == BackstorySlot.Adulthood
+                    && backstoryDef.titleShort.Length >= TitleShortLengthWarn)
                 {
                     Console.WriteLine(
                         "[" + backstoryDef.title + "][" + backstoryDef.titleShort + "] has short title of length of "
@@ -142,17 +132,17 @@ namespace Storybook
 
             output += "Childhood" + Environment.NewLine;
             output += string.Join(
-                Environment.NewLine, 
+                Environment.NewLine,
                 backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Childhood)
-                    .OrderBy(b => b.title)
-                    .Select(b => "- " + b.title)) + Environment.NewLine;
+                          .OrderBy(b => b.title)
+                          .Select(b => "- " + b.title)) + Environment.NewLine;
             output += Environment.NewLine;
             output += "Adulthood" + Environment.NewLine;
             output += string.Join(
-                Environment.NewLine, 
+                Environment.NewLine,
                 backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Adulthood)
-                    .OrderBy(b => b.title)
-                    .Select(b => "- " + b.title)) + Environment.NewLine;
+                          .OrderBy(b => b.title)
+                          .Select(b => "- " + b.title)) + Environment.NewLine;
             output += Environment.NewLine;
             output += new string('-', 25) + Environment.NewLine + Environment.NewLine;
             output += "AUTHORS" + Environment.NewLine + Environment.NewLine;
@@ -163,7 +153,7 @@ namespace Storybook
                 {
                     output += "- childhood: "
                               + string.Join(
-                                  ", ", 
+                                  ", ",
                                   group.Where(b => b.slot == BackstorySlot.Childhood)
                                     .OrderBy(b => b.title)
                                     .Select(b => b.title)) + Environment.NewLine;
@@ -173,7 +163,7 @@ namespace Storybook
                 {
                     output += "- adulthood: "
                               + string.Join(
-                                  ", ", 
+                                  ", ",
                                   group.Where(b => b.slot == BackstorySlot.Adulthood)
                                     .OrderBy(b => b.title)
                                     .Select(b => b.title)) + Environment.NewLine;
@@ -185,7 +175,7 @@ namespace Storybook
             // clear out author
             backstoryDefs.Backstories.ForEach(b => b.author = null);
 
-            using (StreamWriter streamWriter = new StreamWriter(xmlDir + xmlFileOut))
+            using (StreamWriter streamWriter = new StreamWriter(xmlFile + ".xml"))
             using (XmlWriter xmlWriter = XmlWriter.Create(streamWriter, new XmlWriterSettings() { Indent = true }))
             {
                 xmlSerializer.Serialize(xmlWriter, backstoryDefs);
