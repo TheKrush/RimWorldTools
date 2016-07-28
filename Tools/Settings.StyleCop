@@ -85,8 +85,7 @@
     </Analyzer>
   </Analyzers>
   <GlobalSettings>
-    <CollectionProperty Nme="RecognizedWords">
-      <Value>Defs</Value>
+    <CollectionProperty Name="RecognizedWords">
     </CollectionProperty>
     <CollectionProperty Name="DictionaryFolders">
       <Value>.\</Value>
