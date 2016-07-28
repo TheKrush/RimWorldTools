@@ -8,8 +8,8 @@
     public static class Extensions
     {
         public static void Add<T>(
-            this XmlAttributeOverrides overrides,
-            Expression<Func<T, dynamic>> propertySelector,
+            this XmlAttributeOverrides overrides, 
+            Expression<Func<T, dynamic>> propertySelector, 
             XmlAttributes attributes)
         {
             overrides.Add(typeof(T), propertySelector.BuildString(), attributes);

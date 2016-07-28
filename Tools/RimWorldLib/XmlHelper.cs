@@ -30,8 +30,8 @@
                 // make all list types tag their items <li>
                 // for some reason this is how RimWorld expects them
                 overrides.Add(
-                    type,
-                    field.Name,
+                    type, 
+                    field.Name, 
                     new XmlAttributes() { XmlArrayItems = { new XmlArrayItemAttribute("li") } });
             }
 
