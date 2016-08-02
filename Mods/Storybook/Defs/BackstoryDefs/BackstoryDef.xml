@@ -697,6 +697,46 @@
     <saveKeyIdentifier>Storybook</saveKeyIdentifier>
   </CommunityCoreLibrary.BackstoryDef>
   <CommunityCoreLibrary.BackstoryDef>
+    <defName>Mascot</defName>
+    <baseDescription>Highschool was rough, especially in the team's unvented mascot costume. Not only did HE spend the majority of HIS highschool days in the hot stuffy suit, but HE got used to it! Being the mascot came with its perks but plenty of downsides. Due to being the school mascot HE was ridiculed and became a social outcast. HECAP also became more than a bit abrasive towards new people.</baseDescription>
+    <bodyTypeGlobal>Undefined</bodyTypeGlobal>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <title>Mascot</title>
+    <slot>Adulthood</slot>
+    <shuffleable>true</shuffleable>
+    <addToDatabase>true</addToDatabase>
+    <workAllows />
+    <workDisables />
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+    </spawnCategories>
+    <saveKeyIdentifier>Storybook</saveKeyIdentifier>
+  </CommunityCoreLibrary.BackstoryDef>
+  <CommunityCoreLibrary.BackstoryDef>
     <defName>MedicalSoldier</defName>
     <baseDescription>NAME acts as Medical Support for the Colonial Marines of HIS Colony. Having medical experience HE is critical to the success of the squads.</baseDescription>
     <bodyTypeGlobal>Undefined</bodyTypeGlobal>
