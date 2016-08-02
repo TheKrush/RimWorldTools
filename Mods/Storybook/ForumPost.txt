@@ -25,6 +25,7 @@ Adulthood
 - Cancer survivor
 - Jack of all trades
 - Junior officer
+- Mascot
 - Medical soldier
 - Mercenary lieutenant
 - Military scout
@@ -58,7 +59,7 @@ AUTHORS
 - childhood: Tester
 
 [url=http://steamcommunity.com/id/Drakoflame]Drako Edor[/url]
-- adulthood: Cancer survivor
+- adulthood: Cancer survivor, Mascot
 
 [url=https://ludeon.com/forums/index.php?action=profile;u=13598]Igabod[/url]
 - childhood: Farm kid, Miner kid, Sandbox architect
@@ -80,6 +81,9 @@ AUTHORS
 [code]
 v1.02
 - fixed issue with male body types not properly getting set to intended values
+- Add backstories
+ - Adulthood
+  - Mascot
 
 v1.01
 - Updated backstories to prevent any naming issues with other mods that also add backstories
