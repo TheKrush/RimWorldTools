@@ -49,18 +49,6 @@ namespace Storybook
             Console.ReadKey();
         }
 
-        private static XElement Sort(XElement element)
-        {
-            return new XElement(
-                element.Name, 
-                from child in element.Elements() orderby child.Name.ToString() select Sort(child));
-        }
-
-        private static XDocument Sort(XDocument file)
-        {
-            return new XDocument(Sort(file.Root));
-        }
-
         private static void UpdateAboutDescription(string desc)
         {
             string xmlFile = storybookDir + @"About\About";
@@ -85,7 +73,7 @@ namespace Storybook
             BackstoryDefs backstoryDefs;
 
             XmlSerializer xmlSerializer = new XmlSerializer(
-                typeof(BackstoryDefs), 
+                typeof(BackstoryDefs),
                 XmlHelper.GetCommonOverrides(typeof(BackstoryDefs.BackstoryDefEx)));
 
             using (StreamReader streamReader = new StreamReader(xmlFile + ".txt"))
@@ -144,14 +132,14 @@ namespace Storybook
 
             output += "Childhood" + Environment.NewLine;
             output += string.Join(
-                Environment.NewLine, 
+                Environment.NewLine,
                 backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Childhood)
                           .OrderBy(b => b.title)
                           .Select(b => "- " + b.title)) + Environment.NewLine;
             output += Environment.NewLine;
             output += "Adulthood" + Environment.NewLine;
             output += string.Join(
-                Environment.NewLine, 
+                Environment.NewLine,
                 backstoryDefs.Backstories.Where(b => b.slot == BackstorySlot.Adulthood)
                           .OrderBy(b => b.title)
                           .Select(b => "- " + b.title)) + Environment.NewLine;
@@ -165,7 +153,7 @@ namespace Storybook
                 {
                     output += "- childhood: "
                               + string.Join(
-                                  ", ", 
+                                  ", ",
                                   group.Where(b => b.slot == BackstorySlot.Childhood)
                                     .OrderBy(b => b.title)
                                     .Select(b => b.title)) + Environment.NewLine;
@@ -175,7 +163,7 @@ namespace Storybook
                 {
                     output += "- adulthood: "
                               + string.Join(
-                                  ", ", 
+                                  ", ",
                                   group.Where(b => b.slot == BackstorySlot.Adulthood)
                                     .OrderBy(b => b.title)
                                     .Select(b => b.title)) + Environment.NewLine;

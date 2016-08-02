@@ -14,16 +14,13 @@ namespace RimWorldLib.Xml
 
     using CommunityCoreLibrary;
 
-    [XmlRoot("Defs")]
-    public class BackstoryDefs
+    [XmlRoot("Defs")] public class BackstoryDefs
     {
-        [XmlElement("CommunityCoreLibrary.BackstoryDef")]
-        public List<BackstoryDefEx> Backstories { get; set; }
+        [XmlElement("CommunityCoreLibrary.BackstoryDef")] public List<BackstoryDefEx> Backstories { get; set; }
 
         public class BackstoryDefEx : BackstoryDef
         {
-            [XmlElement("author")]
-            public string Author { get; set; }
+            [XmlElement("author")] public string Author { get; set; }
         }
     }
 }
