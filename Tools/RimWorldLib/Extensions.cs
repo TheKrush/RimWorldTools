@@ -1,4 +1,13 @@
-﻿namespace RimWorldLib
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Extensions.cs" company="Lost Minions">
+//   Copyright (c) Lost Minions. All rights reserved.
+// </copyright>
+// <summary>
+//   Defines the Extensions type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace RimWorldLib
 {
     using System;
     using System.Linq.Expressions;
@@ -8,8 +17,8 @@
     public static class Extensions
     {
         public static void Add<T>(
-            this XmlAttributeOverrides overrides,
-            Expression<Func<T, dynamic>> propertySelector,
+            this XmlAttributeOverrides overrides, 
+            Expression<Func<T, dynamic>> propertySelector, 
             XmlAttributes attributes)
         {
             overrides.Add(typeof(T), propertySelector.BuildString(), attributes);

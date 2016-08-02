@@ -1,4 +1,13 @@
-﻿namespace RimWorldLib
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="XmlHelper.cs" company="Lost Minions">
+//   Copyright (c) Lost Minions. All rights reserved.
+// </copyright>
+// <summary>
+//   Defines the XmlHelper type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace RimWorldLib
 {
     using System;
     using System.Collections;
@@ -30,8 +39,8 @@
                 // make all list types tag their items <li>
                 // for some reason this is how RimWorld expects them
                 overrides.Add(
-                    type,
-                    field.Name,
+                    type, 
+                    field.Name, 
                     new XmlAttributes() { XmlArrayItems = { new XmlArrayItemAttribute("li") } });
             }
 
